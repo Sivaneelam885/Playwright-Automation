@@ -31,6 +31,10 @@ test('Exercise', async({page})=>{
 
     //const print = await expect(mainProduct).textContent();
     console.log(printText); 
-    //await page.pause();
+    await page.pause();
+
+    console.log("Adding new line for testing Git");
+
+    
 
 });
